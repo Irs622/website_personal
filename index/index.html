@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <title> Web Tentang Kopi </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- menghubungkan file CSS -->
+    <script src="script.js"></script>
+    <!-- menghubungkan file JavaScript -->
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Logo Web Tentang Kopi">
+            </div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <h1> Selamat Datang di Web Tentang Kopi </h1>
+                <p> Web ini menyajikan informasi tentang kopi, mulai dari sejarah, jenis, cara menyeduh, manfaat, dan lainnya. </p>
+                <a href="#about" class="btn"> Pelajari Lebih Lanjut </a>
+            </div>
+            <div class="hero-image">
+                <img src="hero.png" alt="Gambar Kopi">
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="about-image">
+                <img src="about.png" alt="Gambar Kopi">
+            </div>
+            <div class="about-text">
+                <h2> Apa itu Kopi? </h2>
+                <p> Kopi adalah minuman yang berasal dari biji kopi yang telah disangrai dan dihaluskan. Biji kopi sendiri adalah buah dari tanaman kopi yang tumbuh di daerah tropis. </p>
+                <p> Kopi memiliki rasa yang pahit, namun juga memiliki aroma yang khas dan menenangkan. Kopi juga mengandung kafein, yang dapat meningkatkan kewaspadaan dan energi. </p>
+                <p> Kopi memiliki berbagai jenis, tergantung dari asal, proses, dan cara penyajiannya. Beberapa jenis kopi yang populer di dunia adalah Arabika, Robusta, Espresso, Cappuccino, Latte, dan lainnya. </p>
+            </div>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2> Gallery Kopi </h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="gallery1.png" alt="Gambar Kopi">
+                    <div class="gallery-caption">
+                        <p> Kopi Arabika </p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gallery2.png" alt="Gambar Kopi">
+                    <div class="gallery-caption">
+                        <p> Kopi Robusta </p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gallery3.png" alt="Gambar Kopi">
+                    <div class="gallery-caption">
+                        <p> Kopi Espresso </p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gallery4.png" alt="Gambar Kopi">
+                    <div class="gallery-caption">
+                        <p> Kopi Cappuccino </p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gallery5.png" alt="Gambar Kopi">
+                    <div class="gallery-caption">
+                        <p> Kopi Latte </p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gallery6.png" alt="Gambar Kopi">
+                    <div class="gallery-caption">
+                        <p> Kopi Tubruk </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2> Hubungi Kami </h2>
+            <p> Jika Anda memiliki pertanyaan, saran, atau kritik tentang web ini, silakan hubungi kami melalui formulir berikut. </p>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name"> Nama </label>
+                    <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="email"> Email </label>
+                    <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject"> Subjek </label>
+                    <input type="text" id="subject" name="subject" placeholder="Masukkan subjek pesan Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="message"> Pesan </label>
+                    <textarea id="message" name="message" placeholder="Masukkan pesan Anda" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn"> Kirim </button>
+                </div>
+            </form>
+        </section>
+        <footer class="footer">
+            <p> © 2023 Web Tentang Kopi. All rights reserved. </p>
+        </footer>
+    </div>
+</body>
+
+</html>

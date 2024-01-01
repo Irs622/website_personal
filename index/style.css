@@ -1,0 +1,154 @@
+        /* style.css */
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #333;
+        color: white;
+        padding: 10px;
+    }
+    
+    .logo {
+        width: 100px;
+    }
+    
+    .menu {
+        display: flex;
+        list-style: none;
+    }
+    
+    .menu li {
+        margin: 0 10px;
+    }
+    
+    .menu a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .menu a:hover {
+        color: yellow;
+    }
+    
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80vh;
+        padding: 20px;
+    }
+    
+    .hero-text {
+        width: 50%;
+    }
+    
+    .hero-text h1 {
+        font-size: 48px;
+        color: #333;
+    }
+    
+    .hero-text p {
+        font-size: 18px;
+        color: #333;
+        margin: 10px 0;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    
+    .btn:hover {
+        background-color: #444;
+    }
+    
+    .hero-image {
+        width: 50%;
+    }
+    
+    .hero-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .about {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80vh;
+        padding: 20px;
+    }
+    
+    .about-image {
+        width: 50%;
+    }
+    
+    .about-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .about-text {
+        width: 50%;
+    }
+    
+    .about-text h2 {
+        font-size: 36px;
+        color: #333;
+    }
+    
+    .about-text p {
+        font-size: 18px;
+        color: #333;
+        margin: 10px 0;
+    }
+    
+    .gallery {
+        height: 80vh;
+        padding: 20px;
+        background-color: #f0f0f0;
+    }
+    
+    .gallery h2 {
+        font-size: 36px;
+        color: #333;
+        text-align: center;
+    }
+    
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        margin: 20px 0;
+    }
+    
+    .gallery-item {
+        position: relative;
+    }
+    
+    .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .gallery-caption {
+        position
